@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="322.0" prefWidth="408.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafx06.Controller">
+   <children>
+      <Button layoutX="292.0" layoutY="259.0" mnemonicParsing="false" onAction="#enviarMsj" prefHeight="35.0" prefWidth="101.0" text="Enviar" />
+      <TextArea fx:id="txtArea" layoutX="14.0" layoutY="14.0" prefHeight="227.0" prefWidth="379.0" />
+      <TextField fx:id="txt" layoutX="14.0" layoutY="259.0" prefHeight="35.0" prefWidth="264.0" />
+   </children>
+</Pane>
